@@ -1,0 +1,14 @@
+<div #section class="container" (window:scroll)="onScroll()">
+    <div class="section">
+    <div *ngIf="inTheViewport" class="info">
+        <h1 [@titleAppear] class="title">Create Your Next Game with Us</h1>
+        <div [@descriptionAppear] class="description">
+            Are you ready to embark on a journey to create the next groundbreaking game?
+            Look no further!
+            At our game development outsourcing team, we specialize in bringing your ideas to life with expertise and
+            innovation.
+        </div>
+    </div>
+    <img [@imageAppear] *ngIf="inTheViewport"  src="assets/first-section-image.png">
+</div>
+</div>

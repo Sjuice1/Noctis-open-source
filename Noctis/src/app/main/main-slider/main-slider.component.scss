@@ -1,0 +1,46 @@
+.container{
+    padding-top: 50px;
+}
+
+.swipers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 25vh;
+    margin-top: 25px;
+}
+
+.main-swiper{
+    width: 75vw;
+    position: absolute;
+    bottom: -22vh;
+    left: 16.5vw;
+}
+
+.thumb-swiper{
+    width: calc(50vw + 6px); 
+}
+
+.title{
+    font-size: 42px;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.main-swiper swiper-slide {
+    transition: 0.1s;
+    transform: scale(0.85);
+    opacity: 0.6;
+}
+
+.main-swiper .swiper-slide-active {
+ transition: 0.4s;
+ transform: scale(1);
+ opacity: 1;
+
+ }

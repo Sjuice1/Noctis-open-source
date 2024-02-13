@@ -1,0 +1,78 @@
+*{
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+
+img {
+  height: 25vh;
+  width: 15vw;
+  transition: 0.5s ease;
+
+}
+
+.google-play:hover{
+    height: 27vh;
+    width: 17vw;
+    transition: 0.5s ease;
+}
+
+.app-store:hover{
+    height: 27vh;
+    transition: 0.5s ease;
+}
+
+
+.separator {
+  font-size: 30vh;
+  padding-bottom: 5vh;
+  color: #55a4f2;
+  
+}
+
+.full-title{
+    display: flex;
+}
+
+
+
+.red{
+    color: #5e010a;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(45deg, rgb(210, 255, 245), rgb(255, 255, 255) 100%);
+  padding: 50px;
+  height: 65vh;
+}
+
+.info {
+  width: 50%;
+  margin-top: 25px;
+}
+
+.title {
+  font-size: 3vw;
+  margin-bottom: 35px;
+  margin-right: 15px;
+}
+
+.description {
+  font-size: 1.8vw;
+}
+
+.section {
+  width: 90vw;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,20 @@
+<div class="container">
+    <h1 class="title">Companies that working with us</h1>
+
+
+<swiper-container class="first-swiper" appSwiper [config]="swiperConfig" slides-per-view="5" loop="true" autoplay="true" autoplay-delay="0"  speed="5000" free-mode="true" init='false'>
+    <swiper-slide *ngFor="let slide of firstSlides">
+        <app-first-slider-item [slide]="slide"></app-first-slider-item>
+    </swiper-slide>
+</swiper-container>
+
+
+
+
+<swiper-container class="second-swiper" appSwiper [config]="swiperConfig" slides-per-view="5" loop="true" autoplay="true" autoplay-delay="0" autoplay-reverse-direction="true" speed="5000" free-mode="true" init='false'>
+    <swiper-slide *ngFor="let slide of secondSlides">
+        <app-second-slider-item [slide]="slide"></app-second-slider-item>
+    </swiper-slide>
+</swiper-container>
+</div>
+

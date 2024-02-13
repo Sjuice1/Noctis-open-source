@@ -1,0 +1,11 @@
+<div #section (window:scroll)="onScroll()" class="container">
+    <div *ngIf="inTheViewport" class="title">
+        <span [@nAppear]>N</span>
+        <span [@oAppear]>O</span>
+        <span [@cAppear]>C</span>
+        <span [@tAppear]>T</span>
+        <span [@iAppear]>I</span>
+        <span [@sAppear]>S</span>
+    </div>
+    <a [@btnAppear] class="btn get-started">GET STARTED</a>
+</div>

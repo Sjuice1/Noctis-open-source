@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="title-container">
+        <span class="title">{{titleState}}</span>
+    </div>
+
+    <div class="swipers">
+        <swiper-container class="thumb-swiper" 
+        #thumbSlider 
+        appSwiper 
+        [config]="swiperThumbConfig "
+        allow-touch-move="false">
+            <swiper-slide *ngFor="let slide of slidesVideos">
+                <app-thumbnail-slider-item [slide]="slide"></app-thumbnail-slider-item>
+            </swiper-slide>
+
+        </swiper-container>
+
+        <swiper-container [@swiperAppear] class="main-swiper" #slider appSwiper [config]="
+    swiperConfig" allow-touch-move="false" (swiperslidechange)="onChange()" autoplay="true">
+            <swiper-slide *ngFor="let slide of slidesImgs">
+                <app-main-slider-item [slide]="slide"></app-main-slider-item>
+            </swiper-slide>
+        </swiper-container>
+    </div>
+</div>

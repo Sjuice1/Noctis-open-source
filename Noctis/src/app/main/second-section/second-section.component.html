@@ -1,0 +1,22 @@
+<div  #section class="container" (window:scroll)="onScroll()">
+    <div class="section">
+        <div class="images">
+            <img [@appStoreAppear] *ngIf="inTheViewport" class="app-store" src="assets/app-store-image.png">
+            <span [@separatorAppear] *ngIf="inTheViewport" class="separator">|</span>
+            <img [@googlePlayAppear] *ngIf="inTheViewport" class="google-play" src="assets/google-play-png.png">
+        </div>
+        <div *ngIf="inTheViewport" class="info">
+            <div class="full-title">
+                <h1 [@titleAppear] class="title">Over</h1>
+                <h1 [@titleAppear] *ngIf="inTheViewport" [ngClass]="{'red':downloadCount===5000000}" class="title">
+                    {{formatedDownloadCount}}</h1>
+            </div>
+            <div [@descriptionAppear] *ngIf="inTheViewport" class="description">
+                Downloads and counting on both the App Store and Google Play,
+                our apps stands as a testament to its popularity and usefulness.
+                We've reached millions of users worldwide, helping them stay connected,
+                informed, and entertained.
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+*{
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+
+img{
+    height: 40vh;
+    width: 35vw;
+    transform: perspective(1000px) rotateX(7deg) rotateY(-30deg);
+    transition: 0.5s ease;
+    &:hover{
+        height: 45vh;
+        width: 40vw;
+        transition: 0.5s ease
+    }
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 50px;
+    height: 65vh;
+}
+
+.info{
+    width: 50%;
+    margin-top: 25px;
+}
+
+.title{
+    font-size: 3vw;
+    margin-bottom: 35px;
+}
+
+.description{
+    font-size: 1.8vw
+    ;
+}
+
+.section{
+    width: 90vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
