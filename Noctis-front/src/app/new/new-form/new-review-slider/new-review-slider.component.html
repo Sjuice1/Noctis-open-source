@@ -1,0 +1,5 @@
+<swiper-container #swiper  pagination="true" slides-per-view="1" autoplay="true">
+    <swiper-slide *ngFor="let slide of slides">
+        <app-new-review-slider-item [slide]="slide"></app-new-review-slider-item>
+    </swiper-slide>
+</swiper-container>

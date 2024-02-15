@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    
+    justify-content: center;
+    background-color: #23272d;
+    padding: 50px;
+    gap: 50px;
+    
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.name-and-last-name,
+.email-and-phone{
+    display: flex;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.header-title{
+    width: 40vw;
+    color: white;
+}
+
+
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.6);
+    outline: none;
+    color: rgba(255,255,255,.6);;
+    padding: 22px;
+    padding-left: 0;
+    font-size: 18px;
+    flex: 1;
+}
+
+.submit{
+    border: 0;
+    border-radius: 25px;
+    background-color: #00a7ef;
+    color: white;
+    margin-top: 35px;
+    align-self: flex-end;
+    padding: 15px;
+    width: 15vw;
+    &:hover{
+        cursor: pointer;
+    }
+    
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-text-fill-color: rgba(255,255,255,.6);;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.right-section{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;  
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    box-sizing: border-box;
+
+}
+
+.slider-title{
+    margin-bottom: 25px;
+}
+
+app-new-review-slider{
+    width: 100%;
+    align-self: flex-start;
+}

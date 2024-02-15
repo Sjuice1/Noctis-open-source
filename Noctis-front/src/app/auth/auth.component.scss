@@ -1,0 +1,118 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#login,
+#password,
+#email{
+    border-radius: 25px;
+    padding: 15px 15px;
+    border: 1px solid black;
+    width: 305px;
+    margin-bottom: 15px;
+
+}
+
+#repeat-password{
+    border-radius: 25px;
+    padding: 15px 15px;
+    border: 1px solid black;
+    width: 305px;
+}
+
+input{
+    outline: none;
+}
+
+
+asl-google-signin-button{
+border-bottom: 1px solid lightgrey;
+padding-bottom: 25px;
+margin-bottom: 5px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+label{
+    margin-bottom: 7px;
+}
+
+#submit
+{
+    border: 0;
+    border-radius: 25px;
+    padding: 15px 15px;
+    color: white;
+    background-color: black;
+    width: 305px;
+    text-decoration: none;
+    &:hover{
+        cursor: pointer;
+    }
+    margin-bottom: 5px    
+}
+
+.sign-up{
+    border-radius: 25px;
+    padding: 15px 15px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    text-decoration: none;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+#submit.no-valid{
+    background-color: rgba(0,0,0,0.6);
+    &:hover{
+        cursor:default;
+    }
+}
+
+.error{
+    color: red;
+    margin-top: 15px;
+}
+
+.sign-up.submit{
+    margin-top: 15px;
+}
+
+#login.ng-invalid.ng-touched,
+#password.ng-invalid.ng-touched,
+#repeat-password.ng-invalid.ng-touched,
+#email.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
+
+.arrow{
+    position: absolute;
+    font-size: 22px;
+    top: -6px;
+    left: -36px;
+    border: 0;
+    background-color: transparent;
+    text-decoration: none;
+    &:hover{
+        cursor: pointer;
+    }
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

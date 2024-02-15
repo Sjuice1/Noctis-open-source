@@ -1,0 +1,31 @@
+<div class="container">
+<form *ngIf="isLogin" (ngSubmit)="loginSubmit()" [formGroup]="loginForm">
+    <asl-google-signin-button [width]="335" type='standard' size="large" shape="pill" theme="filled_blue" ></asl-google-signin-button>
+
+    <div class="data">
+        <label>Login</label>
+        <input formControlName="login" id="login" type="text" name="login">
+        <label>Password</label>
+        <input formControlName = password id="password" type="password" name="password">
+    </div>
+    <input [ngClass]="{'btn no-valid' : !loginForm.valid}" [disabled]="!registerForm.valid" id="submit" type="submit" value="Log In">
+
+    <button (click)="changeMode()" class="btn sign-up">Sign Up</button>
+</form>
+
+<form *ngIf="!isLogin" (ngSubmit)="registerSubmit()" [formGroup]="registerForm">
+    <div class="data">
+        <label>Login</label>
+        <input formControlName="login" id="login" type="text" name="login">
+        <label>Email</label>
+        <input formControlName="email" id="email" type="email" name="email">
+        <label>Password</label>
+        <input formControlName = password id="password" type="password" name="password">
+        <label>Repeat Password</label>
+        <input formControlName = repeatPassword id="repeat-password" type="password" name="password">
+    </div>
+    <span class="error" *ngIf="registerForm.errors && registerForm.errors['repeatedPasswordNotMatch']">Passwords not match!</span>
+    <input class="sign-up submit" [ngClass]="{'btn no-valid' : !registerForm.valid}" [disabled]="!registerForm.valid" id="submit" type="submit" value="Sign up">
+    <button (click)="onArrowClick()" class="arrow">←</button>
+</form>
+</div>

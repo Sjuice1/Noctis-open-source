@@ -1,0 +1,151 @@
+{
+  "banners": [
+    {
+        "season_id": 17645, 
+        "season_name": "Человек Бензопила",
+        "season_description": "A long description of season Человек Бензопила", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705351909/u7cg3sgnsxvxnjiwuew9.jpg"
+    },
+    {
+        "season_id": 57695, 
+        "season_name": "Атака Титанов",
+        "season_description": "A long description of season Атака Титанов", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705351849/obikety6ds3ylzydsjnp.jpg"
+    },
+    {
+        "season_id": 87235, 
+        "season_name": "Меч Рыцаря",
+        "season_description": "A long description of season Меч Рыцаря", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705351849/wx1x0la9oir91ccuboxo.jpg"
+    },
+    {
+        "season_id": 92455, 
+        "season_name": "Этот Глупый Свин Не Понимает Мечту зайки",
+        "season_description": "A long description of season Этот Глупый Свин Не Понимает Мечту зайки", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705352887/thdaxfqoftmuxduzbdxv.jpg"
+    },
+    {
+        "season_id": 32245, 
+        "season_name": "Римуру Темпест",
+        "season_description": "A long description of season Меч Рыцаря Римуру Темпест", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705352887/j3jlfzccggrobjt5e67l.jpg"
+    }
+  ],
+
+  "popular_seasons": [
+    {
+        "season_id": 44345,
+        "season_name": "Мастера Меча Онлайн", 
+        "season_description": "A long description of season Мастера Меча Онлайн", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705353607/seasons-images/rgwliw9aqukww0fndpjk.jpg"
+    },
+    {
+        "season_id": 87345,
+        "season_name": "Моя Геройская Академия", 
+        "season_description": "A long description of season моя геройская академия", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705353607/seasons-images/avcletk6olvlmmjtffqq.jpg"
+    },
+    {
+        "season_id": 94345,
+        "season_name": "Ван Пис", 
+        "season_description": "A long description of season Ван Пис", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705353607/seasons-images/eov8q3skm1emekcrunys.jpg"
+    },
+    {
+        "season_id": 39045,
+        "season_name": "Стальной Алхимик", 
+        "season_description": "A long description of season Стальной Алхимик", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705353607/seasons-images/skq8z0qx9h51puctk7d3.jpg"
+    },
+    {
+        "season_id": 69545,
+        "season_name": "Ванпачмен", 
+        "season_description": "A long description of season Ванпачмен", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705353608/seasons-images/leishyvshiznwvc6ytro.jpg" 
+    },
+    {
+        "season_id": 43345,
+        "season_name": "Токийский Гуль", 
+        "season_description": "A long description of season Токийский Гуль", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705353607/seasons-images/yeojddlbmge0et1fn7u3.jpg" 
+    }
+  ],
+
+  "announced_seasons": [
+    {
+        "season_id": 23345,
+        "season_name": "Хантер х Хантер", 
+        "season_description": "A long description of season Хантер х Хантер", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354272/seasons-images/ek4bsipwxjf5rqgupbhl.jpg"
+    },
+    {
+        "season_id": 87345,
+        "season_name": "Бездомный Бог", 
+        "season_description": "A long description of season Бездомный Бог", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354272/seasons-images/udcxdhvp2e6qyfioh3eh.jpg"
+    },
+    {
+        "season_id": 72526,
+        "season_name": "Убийца Акаме", 
+        "season_description": "A long description of season Убийца Акаме", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354272/seasons-images/y2r6sjtfcbuq5lauyews.jpg"
+    },
+    {
+        "season_id": 76345,
+        "season_name": "Моб Психо 100", 
+        "season_description": "A long description of season Моб Психо 100", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354272/seasons-images/vccz71fqfa8kzkd9twlc.jpg"
+    },
+    {
+        "season_id": 10345,
+        "season_name": "Дневник Будущего", 
+        "season_description": "A long description of season Дневник Будущего", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354272/seasons-images/s06qtquzcy0kzvozmcgj.jpg"
+    },
+    {
+        "season_id": 63805,
+        "season_name": "Класс Убийц", 
+        "season_description": "A long description of season Класс Убийц", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354272/seasons-images/yqdk9uuljmph6mxdmjtp.jpg"
+    }
+  ],
+
+  "released_seasons" : [
+    {
+        "season_id": 76545,
+        "season_name": "Блич", 
+        "season_description": "A long description of season Магическая битва Блич", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354891/seasons-images/a0z4fg1pcoydwrmzjvcc.png"
+    },
+    {
+        "season_id": 43545,
+        "season_name": "Обещанный Неверленд", 
+        "season_description": "A long description of season Магическая битва Обещанный Неверленд", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354890/seasons-images/ryycimqejm5iwupbket9.jpg"
+    },
+    {
+        "season_id": 76975,
+        "season_name": "Синий Экзорцист", 
+        "season_description": "A long description of season Магическая битва Синий Экзорцист", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354891/seasons-images/jwdr1ius3yj0kjw5japr.jpg"
+    },
+    {
+        "season_id": 216545,
+        "season_name": "Джо Джо", 
+        "season_description": "A long description of season Магическая битва Джо Джо", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354890/seasons-images/kauoh7cofspcllktxzd8.jpg"
+    },
+    {
+        "season_id": 426545,
+        "season_name": "Ре Зеро", 
+        "season_description": "A long description of season Магическая битва Ре Зеро", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354890/seasons-images/y1ryntuyxtxfzgnu7cjc.jpg"
+    },
+    {
+        "season_id": 560545,
+        "season_name": "Восхождение Героя Щита", 
+        "season_description": "A long description of season Магическая битва Восхождение Героя Щита", 
+        "season_image_url": "https://res.cloudinary.com/dfpgs75hz/image/upload/v1705354890/seasons-images/wpjxasmjpdon7rwrx7xk.jpg"
+    }
+  ]
+}

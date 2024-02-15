@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Kiev
+X-LIC-LOCATION:Europe/Kiev
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700424T000000
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=-1FR
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701029T235959
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1TH
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Kiev:20240215T170000
+DTEND;TZID=Europe/Kiev:20240215T173000
+DTSTAMP:20240209T235909Z
+ORGANIZER;CN=Yaroslav Burlakov:mailto:yaroslav.burlakov@addaxcrm.com
+UID:com9khst1njrsd23o2hl3k7u9s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Yaroslav Burlakov;X-NUM-GUESTS=0:mailto:yaroslav.burlakov@addaxcrm.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=andritokar@gmail.com;X-NUM-GUESTS=0:mailto:andritokar@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/cta-zdfc-zmf
+X-MICROSOFT-CDO-OWNERAPPTID:2107168940
+CREATED:20240209T235906Z
+DESCRIPTION:<b>Booked by</b>\nAndrii Tokan\nandritokar@gmail.com\n<br><b>Jo
+ b title</b>\nFull Stack Developer Angular/Java\n<br><b>Link to CV</b>\nhttp
+ s://www.dropbox.com/scl/fi/zbo8xy8btjuq47xitctiw/Tokar_A_JavaDev.pdf?rlkey=
+ yv037qpmo8huvj70umqnl558t&amp\;dl=0\n<br><b>Link to LinkedIn</b>\nhttps://w
+ ww.linkedin.com/in/andrii-tokar-1963b32a0/\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nПрисоединиться 
+ через Google Meet: https://meet.google.com/cta-zdfc-zmf.\nВы также можете п
+ озвонить по телефону: (GB) +44 20 3937 4147 PIN-код: 779164552#\nДополнител
+ ьные номера телефонов: https://tel.meet/cta-zdfc-zmf?pin=6410342307995&hs=7
+ \n\nПодробнее о Google Meet по ссылке: https://support.google.com/a/users/a
+ nswer/9282720\n\nНе изменяйте данные в этом разделе.\n-::~:~::~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20240209T235906Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Addax HR (Andrii Tokan)
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

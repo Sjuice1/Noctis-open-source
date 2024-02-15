@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(237,19,100,1) 100%);
+    padding: 50px;
+    height: 50vh;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    letter-spacing: 6px;
+    white-space: 'nowrap';
+
+}

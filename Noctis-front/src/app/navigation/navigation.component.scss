@@ -1,0 +1,27 @@
+
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}

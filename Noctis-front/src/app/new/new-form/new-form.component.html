@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="left-section">
+        <div class="header-title">
+            <h1>TELL US ABOUT YOUR PROJECT</h1>
+            <h2>We’ll contact you within 2 business days to schedule a meeting to discuss your goals.</h2>
+        </div>
+        <form [formGroup]="inputForm">
+            <div class="name-and-last-name">
+                <input id="name" formControlName="name" type="text" name="name" placeholder="First Name *">
+                <input id="last-name" formControlName="lastName" type="text" name="last-name" placeholder="Last Name *">
+            </div>
+            <div class="email-and-phone">
+                <input id="email" formControlName="email" type="email" name="email" placeholder="Email *">
+                <input id="phone" formControlName="phoneNumber" type="text" name="phone-number" placeholder="Phone">
+            </div>
+            <input id="description" formControlName="description" type="text" name="description"
+                placeholder="Project Description">
+            <input type="submit" class="btn submit">
+        </form>
+    </div>
+    <div class="right-section">
+    <h1 class="slider-title">See How We Turn Ideas Into Real Life Products</h1>
+    <app-new-review-slider></app-new-review-slider>
+    </div>
+</div>
